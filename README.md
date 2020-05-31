@@ -50,4 +50,3 @@ Implementation Steps:
 2. The function ‘getGetisOrdScore’ calculates g-score for each x-y-z coordinate: 
 3. Once the g-score is calculated for x, y,z coordinates, ‘order by’ based on g-score is done and sorted in non-increasing order of g-score and the coordinates are stored in a view named “Result”. This view is then returned by the method ‘runHotCellAnalysis’. 
 
-
