@@ -21,7 +21,7 @@ ST_CONTAINS takes a point and a rectangle as Input Parameters and Returns a Bool
 2. We then calculate the upper bound and lower bound of x and y coordinates for the rectangle 
 3. If point_x(x coordinate of the point) or point_y(y coordinate of the point) lies above the upper bound or below the lower bound of the rectangle we return false, else we return true. 
 
-### • ST_WITHIN: 
+### • ST_WITHIN:  
 
 ST_WITHIN takes 2 points and a distance as Input Parameters and Returns a Boolean value depending on whether the distance between the given points is less than or more than the given distance. 
 
